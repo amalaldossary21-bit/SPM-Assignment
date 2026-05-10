@@ -2,6 +2,7 @@ public class Operations {
 
  main
  main
+ main
  Amal-Aldossary
     // Find the maximum of two numbers
     public static int findMax(int a, int b) {
@@ -73,3 +74,21 @@ public class Operations {
     }
 }
  Leen-Moaafa
+
+    public static boolean isEven(int a) {
+        return a % 2 == 0;
+    }
+
+    public static boolean isOdd(int a) {
+        return a % 2 != 0;
+    }
+
+    public static void main(String[] args) {
+
+        int x = 7;
+
+        System.out.println("Is Even: " + isEven(x));
+        System.out.println("Is Odd: " + isOdd(x));
+    }
+}
+ Razan
